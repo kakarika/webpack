@@ -15,16 +15,26 @@ li{
 }
 
 .wrap{
-    width: 1280px;
-    margin: 0 auto;
+    width: 100%;
     // background-color: aqua;
 }
 
-@media screen and (max-width:1280px) {
-    .wrap{
-        width: 100%;
+.l-wrap-inner{
+    width: 1171px;
+    margin: 0 auto;
+
+    &--full{
+        width: 1280px;
     }
 }
+
+
+
+// @media screen and (max-width:1280px) {
+//     .wrap{
+//         width: 100%;
+//     }
+// }
 
 
 

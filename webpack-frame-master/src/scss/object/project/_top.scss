@@ -2,7 +2,7 @@
     background-color: #fafafa;
     &--card{
         .l-wrap-inner{
-            margin: 77px 0;
+            padding: 77px 0;
         }
     }
     .l-wrap-inner{
@@ -44,8 +44,7 @@
 
     &__card{
         display: flex;
-        justify-content: center;
-        gap: 30px;
+        justify-content: space-between;
         flex-wrap: wrap;
         .card-box{
             width: 371px;
@@ -114,6 +113,7 @@
 
     &--feature{
         .l-wrap-inner{
+            margin: 0 auto;
             .c-title{
                 margin-bottom: 30px;
             }
