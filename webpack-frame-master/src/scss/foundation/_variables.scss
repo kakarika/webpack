@@ -1,0 +1,11 @@
+$fontLeto: 'Lato', sans-serif;
+$fontDancing: 'Dancing Script', cursive;
+$fontPoppins: 'Poppins', sans-serif;
+
+$colorBlue: #325dff;
+
+@mixin poppins-regular {
+    font-family: $fontPoppins;
+    font-size: 16px;
+    font-weight: 400;
+}

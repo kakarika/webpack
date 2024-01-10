@@ -1,0 +1,48 @@
+.l-header{
+    // height: 68px;
+    position: absolute;
+    margin-top: 50px;
+    right: 50%;
+    transform: translate(50%);
+    z-index: 100;
+
+    .l-wrap-inner{
+    width: 1171px;
+
+    @media screen and (max-width: 1280px) {
+        .l-wrap-inner{
+            width: 100%;
+        }
+    }
+
+    .l-header-wrap{
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    }
+    }
+
+    &__logo{
+        font-size: 28px;
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+        line-height: 68px;
+        display: inline-flex;
+        align-items: center;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        ul{
+            display: flex;
+            width: 332px;
+            justify-content: space-between;
+
+            li a{
+                font-family: $fontPoppins;
+                font-size: 12px;
+                font-weight: 500;
+            }
+        }
+    }
+}

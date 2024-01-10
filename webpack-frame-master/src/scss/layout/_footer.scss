@@ -1,0 +1,13 @@
+footer{
+    height: 120px;
+    background-color: $colorBlue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    address{
+        @include poppins-regular;
+        font-size: 20px;
+    }
+}
